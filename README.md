@@ -24,5 +24,5 @@ Project Structure
 
 Run:
 ```bash
-make
+.jc/*the j-file you want to run
 
