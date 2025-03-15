@@ -50,3 +50,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Exceptions: do not ignore C source files, header files, and Makefiles
+!token.c
+!token.h
+!asm_gen.c
+!asm_gen.h
+!jc.c
+!jc.h
+!Makefile
